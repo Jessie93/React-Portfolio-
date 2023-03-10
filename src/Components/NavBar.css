@@ -1,0 +1,13 @@
+.navbar-nav .nav-link {
+  color: rgb(27, 63, 64);
+  margin-right: 10px;
+}
+  
+.section {
+  padding: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
