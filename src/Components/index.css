@@ -1,0 +1,51 @@
+.section {
+  position: relative;
+
+}
+/* HEADER */
+.introduction {
+  display: flex;
+  height: 70vh;
+}
+.name {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name-wrapper {
+  padding: 50px;
+}
+
+
+.introduction h1{
+  font-size: 80px;
+  font-weight: bold;
+  color: rgb(27, 63, 64);
+}
+
+.introduction p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(27, 63, 64)
+}
+
+
+
+@media screen and (max-width: 480px) {
+  .introduction {
+    flex-direction: column;
+  }
+
+  .name-wrapper {
+  
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+  }
+
+}

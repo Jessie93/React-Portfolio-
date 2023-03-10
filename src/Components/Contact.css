@@ -1,0 +1,70 @@
+ .contact {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+  }
+  .right {
+    flex: 1;
+  }
+  
+  .right h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(27, 63, 64);
+  } 
+  .card {
+    width: 60%;
+    height: 70vh;
+    border-radius: 30px;
+    position: absolute;
+      overflow: hidden;
+  }
+  
+  .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
+  
+  .sub {
+    margin: 20px 0px;
+    color: rgb(27, 63, 64)
+  }
+  
+  .body{
+      font-weight: 300;
+      color: rgb(27, 63, 64)
+  }
+  
+  
+  @media screen and (max-width:480px) {
+      .aboutMe{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+      }
+  
+      .left {
+        width: 100%;
+      }
+  
+      .card {
+        height: 30vh;
+      }
+  
+      .right{
+        padding: 20px;
+      }
+  }
+  
