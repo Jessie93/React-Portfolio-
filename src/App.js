@@ -1,18 +1,19 @@
-import React from "react";
 
-import Home from "./components/Home/home";
-import Portfolio from "./components/portfolio/projectGallery";
-import About from "./components/about-me/about-me";
-import Footer from "./components/footer/footer";
-
+import Header from './Components/Header/Header';
+import Home from './Components/Home/Home';
+import ProjectGallery from './Components/Project/ProjectGallery';
+import Contact from './Components/Contact/Contact';
+import Projects from './Components/Project/data';
+import Navbar from './Components/NavBar/NavBar';
 
 const App = () => {
   return (
     <div>
       <Home />
-      <Portfolio />
-      <About />
-      <Footer />
+      <Navbar />
+      <Header />
+      <ProjectGallery projects={Projects} />
+      <Contact />
     </div>
   );
 };
